@@ -1,3 +1,7 @@
+        .black-text {
+                text-color: black;
+        }
+
         body { 
                 background: #333;
                 color: white;
@@ -6,9 +10,7 @@
                 padding: 0; /* Remove default padding */
         }
 
-        .black-text {
-                text-color: black;
-        }
+      
 
 
         .container {
