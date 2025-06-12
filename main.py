@@ -18,9 +18,9 @@ if days > 0:
     transport = input("Do you commute by foot, bike, bus, train, or car? ")
     # Different methods of transportation have different environmental impacts.
     if transport == "bus" or transport == "train":
-        footprint = footprint + (4* days)
+        footprint = footprint + (4 * days)
     if transport == "bike" or transport == "foot":
-        footprint == footprint + days
+        footprint = footprint + days
     if transport == "car":
         footprint = footprint + (8 * days)
 
